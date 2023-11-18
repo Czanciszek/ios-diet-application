@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		374948A02B08CD83002B8E3C /* ios_diet_applicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749489F2B08CD83002B8E3C /* ios_diet_applicationApp.swift */; };
 		374948A22B08CD83002B8E3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374948A12B08CD83002B8E3C /* ContentView.swift */; };
-		374948A42B08CD83002B8E3C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374948A32B08CD83002B8E3C /* Item.swift */; };
 		374948A62B08CD84002B8E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374948A52B08CD84002B8E3C /* Assets.xcassets */; };
 		374948A92B08CD84002B8E3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374948A82B08CD84002B8E3C /* Preview Assets.xcassets */; };
 		374948B32B08CD84002B8E3C /* ios_diet_applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374948B22B08CD84002B8E3C /* ios_diet_applicationTests.swift */; };
@@ -38,7 +37,6 @@
 		3749489C2B08CD83002B8E3C /* ios-diet-application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-diet-application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3749489F2B08CD83002B8E3C /* ios_diet_applicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_diet_applicationApp.swift; sourceTree = "<group>"; };
 		374948A12B08CD83002B8E3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		374948A32B08CD83002B8E3C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		374948A52B08CD84002B8E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		374948A82B08CD84002B8E3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		374948AE2B08CD84002B8E3C /* ios-diet-applicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-diet-applicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +96,6 @@
 			children = (
 				3749489F2B08CD83002B8E3C /* ios_diet_applicationApp.swift */,
 				374948A12B08CD83002B8E3C /* ContentView.swift */,
-				374948A32B08CD83002B8E3C /* Item.swift */,
 				374948A52B08CD84002B8E3C /* Assets.xcassets */,
 				374948A72B08CD84002B8E3C /* Preview Content */,
 			);
@@ -261,7 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				374948A22B08CD83002B8E3C /* ContentView.swift in Sources */,
-				374948A42B08CD83002B8E3C /* Item.swift in Sources */,
 				374948A02B08CD83002B8E3C /* ios_diet_applicationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,11 +425,14 @@
 				DEVELOPMENT_TEAM = 89QW759BWA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DietAppka;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,11 +457,14 @@
 				DEVELOPMENT_TEAM = 89QW759BWA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DietAppka;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
